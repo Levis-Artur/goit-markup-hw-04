@@ -146,8 +146,8 @@ header {
     background-position: center;
     margin-left: auto;
     margin-right: auto;
-    
-    
+
+
 }
 
 .hero-title {
@@ -323,7 +323,10 @@ header {
 
 .filters-items {
     margin-right: 24px;
+}
 
+.filters-items:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.18);
 }
 
 .img-list {
@@ -338,7 +341,7 @@ header {
 }
 
 .img-items:hover {
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.18);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.18);
 }
 
 
@@ -360,11 +363,11 @@ header {
 
 .quality-img {
     background: var(--footerlogo-bcg-color);
-        width: 264px;
-        height: 112px;
-        left: 0px;
-        top: 0px;
-        border-radius: 4px;
-        margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    margin-bottom: 8px;
 
 }
