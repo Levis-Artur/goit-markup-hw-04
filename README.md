@@ -1,4 +1,5 @@
-# goit-markup-hw-03
+# goit-markup-hw-04
 
 
-Вніс зміни відповідно до настанов ментора.
+01.02.23
+added a background image for the hero, created a shadow when hovering in the portfolio
