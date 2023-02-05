@@ -439,6 +439,7 @@ header {
     width: 40px;
     height: 40px;
     padding-left: 0;
+    
 }
 
 .team-contacts-list {
@@ -449,6 +450,9 @@ header {
 }
 
 .team-contacts-link {
+    display: block;
+    width: 40px;
+    height: 40px;
     background-color: var(--logo-btn-color);
     border-radius: 50%;
 }
