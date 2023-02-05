@@ -315,7 +315,7 @@ header {
 
 .foot-list {
     display: flex;
-    gap: 1px;
+    gap: 34px;
     float: left;
 }
 
