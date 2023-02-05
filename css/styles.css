@@ -299,11 +299,6 @@ header {
     font-weight: 500;
     line-height: calc(24/16);
     list-style: none;
-        margin-right: 16px;
-        width: 40px;
-        height: 40px;
-
-    
 }
 .soc-text {
     color: var(--white-color);
@@ -319,8 +314,7 @@ header {
 }
 
 .social-links {
-    fill: var(--white-color);
-    
+    fill: var(--white-color);    
 }
 
 
