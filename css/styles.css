@@ -265,7 +265,7 @@ header {
     background-color: var(--primary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
-   
+     
 }
 
 .footer-text {
@@ -289,7 +289,8 @@ header {
 }
 
 .foot-link {
-
+    float: right;
+    
 }
 
 .foot-soc {
@@ -297,6 +298,11 @@ header {
     margin-bottom: 16px;
     font-weight: 500;
     line-height: calc(24/16);
+    list-style: none;
+        margin-right: 16px;
+        width: 40px;
+        height: 40px;
+
     
 }
 .soc-text {
@@ -305,17 +311,9 @@ header {
 
 .foot-list {
     display: flex;
-    padding-left: 0;
 
 }
 
-.foot-soc {
-    list-style: none;
-        margin-right: 16px;
-        width: 40px;
-        height: 40px;
-        
-}
 .foot-soc:last-child {
     margin-right: 0;
 }
@@ -450,7 +448,9 @@ header {
 }
 
 .team-contacts-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     background-color: var(--logo-btn-color);
