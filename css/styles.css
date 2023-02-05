@@ -140,7 +140,7 @@ header {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    background-image: url(../images/hero/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -265,6 +265,7 @@ header {
     background-color: var(--primary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
+   
 }
 
 .footer-text {
@@ -285,6 +286,43 @@ header {
     margin-bottom: 16px;
     display: block;
 
+}
+
+.foot-link {
+
+}
+
+.foot-soc {
+    color: var(--white-color);
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: calc(24/16);
+    
+}
+.soc-text {
+    color: var(--white-color);
+}
+
+.foot-list {
+    display: flex;
+    padding-left: 0;
+
+}
+
+.foot-soc {
+    list-style: none;
+        margin-right: 16px;
+        width: 40px;
+        height: 40px;
+        
+}
+.foot-soc:last-child {
+    margin-right: 0;
+}
+
+.social-links {
+    fill: var(--white-color);
+    
 }
 
 
@@ -340,7 +378,8 @@ header {
     flex-basis: calc((100% - 48px) / 3);
 }
 
-.img-items:hover {
+.img-items:hover,
+.img-items:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.18);
 }
 
@@ -352,22 +391,73 @@ header {
     border-top: none;
 }
 
-
-
-
-
-
-
-
-
-
-.quality-img {
-    background: var(--footerlogo-bcg-color);
-    width: 264px;
-    height: 112px;
-    left: 0px;
-    top: 0px;
-    border-radius: 4px;
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--footerlogo-bcg-color);
+}
 
+
+.customers-list {
+    display: flex;
+
+}
+
+.customers-items {
+    flex-basis: calc((100% - 24px) / 5);
+
+}
+
+
+.customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+}
+
+
+
+
+.customers-svg {
+    fill: #8E8F99;
+}
+
+.customers-svg:hover,
+.customers-svg:focus {
+    fill: #404BBF;
+}
+
+.team-contacts {
+    width: 40px;
+    height: 40px;
+    padding-left: 0;
+}
+
+.team-contacts-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.team-contacts-link {
+    background-color: var(--logo-btn-color);
+    border-radius: 50%;
+}
+
+.team-contacts-link:hover,
+.team-contacts-link:focus {
+    background-color: var(--hover-focus-color);
+}
+
+.team-contacts-icon {
+    fill: var(--white-color);
 }
