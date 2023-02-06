@@ -6,6 +6,7 @@
     --footerlogo-bcg-color: #F4F4FD;
     --white-color: #ffffff;
     --filter-btn: #E7E9FC;
+    --hover-footer: #31D0AA;
 
 }
 
@@ -172,6 +173,7 @@ header {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     padding: 16px 32px;
 }
 
@@ -317,16 +319,24 @@ header {
     margin-right: 0;
 }
 
-.social-links {}
-
 .social-link {
-    display: block;
+    display: flex;
     fill: var(--white-color);
     background-color: var(--link-color);
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    justify-content: center;
+    align-items: center;
 }
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--hover-footer);
+}
+
+
+
 
 /* portfolio*/
 
@@ -347,8 +357,10 @@ header {
 
 .filters-btn:hover,
 .filters-btn:focus {
-    background: var(--logo-btn-color);
+    background: var(--hover-focus-color);
     color: var(--white-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.58);
+    border-color: var(--hover-focus-color);
 }
 
 .portfolio {
@@ -391,6 +403,7 @@ header {
     padding: 32px 16px;
     border: 1px solid var(--filter-btn);
     border-top: none;
+    color: var(--primary-text-color);
 }
 
 .svg {
@@ -428,7 +441,7 @@ header {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 2px solid var(--hover-focus-color);
+    border: 1px solid var(--hover-focus-color);
 }
 
 .customers-link:focus svg {
