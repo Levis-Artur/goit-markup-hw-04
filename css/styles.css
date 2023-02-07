@@ -392,9 +392,13 @@ header {
     flex-basis: calc((100% - 48px) / 3);
 }
 
-.img-items:hover,
-.img-items:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.18);
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 
@@ -437,27 +441,24 @@ header {
     border-radius: 4px;
     width: 168px;
     height: 88px;
+    color: #8E8F99;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 1px solid var(--hover-focus-color);
+    border-color: var(--hover-focus-color);
+    color: var(--hover-focus-color);
 }
 
-.customers-link:focus svg {
-    fill: var(--hover-focus-color);
-}
+
 
 
 
 .customers-svg {
-    fill: #8E8F99;
+    fill: currentColor;
 }
 
-.customers-svg:hover,
-.customers-svg:focus {
-    fill: var(--hover-focus-color);
-}
+
 
 .team-contacts {
     width: 40px;
